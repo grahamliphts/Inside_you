@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\collider_llert.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\get_info.cs">
     <Files>
-      <File FileName="Assets\collider_llert.cs" Line="7" Column="2" />
+      <File FileName="Assets\collider_llert.cs" Line="7" Column="1" />
+      <File FileName="Assets\get_info.cs" Line="19" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

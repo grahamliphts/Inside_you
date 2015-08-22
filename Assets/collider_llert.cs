@@ -16,7 +16,9 @@ public class collider_llert : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if(other.name == Perception)
+		if (other.name == Perception) {
 			Debug.Log ("J'ai trouve e la bouffe !!!!");
+			other.GetComponent<Ranger_script>().showPvParent();
+		}
 	}
 }
