@@ -3,6 +3,8 @@ using System.Collections;
 
 public class collider_llert : MonoBehaviour {
 
+	public string Perception;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,7 +16,7 @@ public class collider_llert : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.name == "Capsule (4)")
-			Debug.Log ("coucou");
+		if(other.name == Perception)
+			Debug.Log ("J'ai trouve e la bouffe !!!!");
 	}
 }
