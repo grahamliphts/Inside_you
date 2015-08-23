@@ -163,4 +163,12 @@ public class Player_main_script : MonoBehaviour {
 	public void setConsoSucre (int newConsoSucre) {
 		m_consoSucre=newConsoSucre;
 	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.name == "vilain") {
+		
+			m_pv --;		
+		}
+	}
 }

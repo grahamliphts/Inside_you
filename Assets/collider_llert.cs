@@ -18,10 +18,10 @@ public class collider_llert : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.name == perception) {
-			Debug.Log ("J'ai trouve de la bouffe !!!!");
+			//Debug.Log ("J'ai trouve de la bouffe !!!!");
 			other.GetComponent<Ranger_script>().showParent(perception);
 			//m_playerScript.set
-			m_playerScript.setVitamine(m_playerScript.getVitamine() +  1) ;
+			//m_playerScript.setVitamine(m_playerScript.getVitamine() +  1) ;
 			//Debug.Log(m_playerScript.getVitamine());
 		}
 	}
