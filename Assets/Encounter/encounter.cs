@@ -7,6 +7,12 @@ public class encounter : MonoBehaviour {
 	[SerializeField] private float m_bruitRadius=0.5f;
 	private float m_scale = 1;
 
+	private int m_vitamine = 0;
+	private int m_magnesium = 0;
+	private int m_fer = 0;
+	private int m_graisse = 0;
+	private int m_sucre = 0;
+
 
 	// Use this for initialization
 	void Start () {
