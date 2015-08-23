@@ -3,7 +3,7 @@ using System.Collections;
 
 public class collider_llert : MonoBehaviour {
 
-	public string Perception;
+	public string perception;
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +16,9 @@ public class collider_llert : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.name == Perception) {
-			Debug.Log ("J'ai trouve e la bouffe !!!!");
-			other.GetComponent<Ranger_script>().showPvParent();
+		if (other.name == perception) {
+			Debug.Log ("J'ai trouve de la bouffe !!!!");
+			other.GetComponent<Ranger_script>().showParent(perception);
 		}
 	}
 }
