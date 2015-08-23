@@ -60,4 +60,39 @@ public class Bouffe_pull : MonoBehaviour {
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);
 	}
+	void setLentilles(GameObject encounter) //riche en fer
+		//Graines de soja, Lentilles, Haricots blancs, Pois chiches, Tofu, abricot
+	{
+		encounter.GetComponent<encounter> ().setName ("Lentilles");
+		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
+		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
+		encounter.GetComponent<encounter> ().setPv (10);
+	}
+	
+	void setTournesol(GameObject encounter) //riche en magnésium
+		//Tournesol, blé
+	{
+		encounter.GetComponent<encounter> ().setName ("Tournesol");
+		encounter.GetComponent<encounter> ().setOdeurRange (10f);
+		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
+		encounter.GetComponent<encounter> ().setPv (10);
+	}
+	
+	void setAgave(GameObject encounter) //Riche en sucre
+		//Fraise, framboise
+	{
+		encounter.GetComponent<encounter> ().setName ("Agave");
+		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
+		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
+		encounter.GetComponent<encounter> ().setPv (10);
+	}
+	
+	void setNoisettes(GameObject encounter) //Riche en graisse
+		//Noisettes, noix, olives
+	{
+		encounter.GetComponent<encounter> ().setName ("Noisettes");
+		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
+		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
+		encounter.GetComponent<encounter> ().setPv (10);
+	}
 }
