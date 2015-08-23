@@ -28,6 +28,9 @@ public class Player_main_script : MonoBehaviour {
 	private int m_consoSucre = 0;
 	private int m_consoGraisse = 0;
 
+	[SerializeField] private Light m_playerLight;
+	[SerializeField] private SphereCollider m_vueCollider;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -35,123 +38,129 @@ public class Player_main_script : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		m_vueCollider.radius = m_playerLight.range;
 	
 	}
 
-	int getFer () {
+	public int getFer () {
 		return m_fer;
 	}
-	int getMagnesium () {
+	public int getMagnesium () {
 		return m_magnesium;
 	}
-	int getVitamine () {
+	public int getVitamine () {
 		return m_vitamine;
 	}
-	int getSucre () {
+	public int getSucre () {
 		return m_sucre;
 	}
-	int getGraisse () {
+	public int getGraisse () {
 		return m_graisse;
 	}
-	int getAdrenaline () {
+	public int getAdrenaline () {
 		return m_adrenaline;
 	}
-	int getTemperature () {
+	public int getTemperature () {
 		return m_temperature;
 	}
-	int getVitesseDeplacement () {
+	public int getVitesseDeplacement () {
 		return m_vitesseDeplacement;
 	}
-	int getVitesseAttaque () {
+	public int getVitesseAttaque () {
 		return m_vitesseAttaque;
 	}
-	int getResistance () {
+	public int getResistance () {
 		return m_resistance;
 	}
-	int getPv () {
+	public int getPv () {
 		return m_pv;
 	}
-	int getResistTemperatures () {
+	public int getResistTemperatures () {
 		return m_resistTemperatures;
 	}
-	int getCourage () {
+	public int getCourage () {
 		return m_courage;
 	}
-	int getProdAdrenaline () {
+	public int getProdAdrenaline () {
 		return m_prodAdrenaline;
 	}
-	int getConsoFer () {
+	public int getConsoFer () {
 		return m_consoFer;
 	}
-	int getConsoMagnesium () {
+	public int getConsoMagnesium () {
 		return m_consoMagnesium;
 	}
-	int getConsoVitamine () {
+	public int getConsoVitamine () {
 		return m_consoVitamine;
 	}
-	int getConsoGraisse () {
+	public int getConsoGraisse () {
 		return m_consoGraisse;
 	}
-	int getConsoSucre () {
+	public int getConsoSucre () {
 		return m_consoSucre;
 	}
 
+	public int getPeur()
+	{
+		return m_peur;
+	}
 
-	void setFer (int newFer) {
+
+	public void setFer (int newFer) {
 		m_fer=newFer;
 	}
-	void setMagnesium (int newMagnesium) {
+	public void setMagnesium (int newMagnesium) {
 		m_magnesium=newMagnesium;
 	}
-	void setVitamine (int newVitamine) {
+	public void setVitamine (int newVitamine) {
 		m_vitamine=newVitamine;
 	}
-	void setSucre (int newSucre) {
+	public void setSucre (int newSucre) {
 		m_sucre=newSucre;
 	}
-	void setGraisse (int newGraisse) {
+	public void setGraisse (int newGraisse) {
 		m_graisse=newGraisse;
 	}
-	void setAdrenaline (int newAdrenaline) {
+	public void setAdrenaline (int newAdrenaline) {
 		m_adrenaline=newAdrenaline;
 	}
-	void setTemperature (int newTemperature) {
+	public void setTemperature (int newTemperature) {
 		m_temperature=newTemperature;
 	}
-	void setVitesseDeplacement (int newVitesseDeplacement) {
+	public void setVitesseDeplacement (int newVitesseDeplacement) {
 		m_vitesseDeplacement=newVitesseDeplacement;
 	}
-	void setVitesseAttaque (int newVitesseAttaque) {
+	public void setVitesseAttaque (int newVitesseAttaque) {
 		m_vitesseAttaque=newVitesseAttaque;
 	}
-	void setResistance (int newResistance) {
+	public void setResistance (int newResistance) {
 		m_resistance=newResistance;
 	}
-	void setPv (int newPv) {
+	public void setPv (int newPv) {
 		m_pv=newPv;
 	}
-	void setResistTemperatures (int newResistTemp) {
+	public void setResistTemperatures (int newResistTemp) {
 		m_resistTemperatures=newResistTemp;
 	}
-	void setCourage (int newCourage) {
+	public void setCourage (int newCourage) {
 		m_courage=newCourage;
 	}
-	void setProdAdrenaline (int newProdAdrenaline) {
+	public void setProdAdrenaline (int newProdAdrenaline) {
 		m_prodAdrenaline=newProdAdrenaline;
 	}
-	void setConsoFer (int newConsoFer) {
+	public void setConsoFer (int newConsoFer) {
 		m_consoFer=newConsoFer;
 	}
-	void setConsoMagnesium (int newConsoMagne) {
+	public void setConsoMagnesium (int newConsoMagne) {
 		m_consoMagnesium=newConsoMagne;
 	}
-	void setConsoVitamine (int newConsoVita) {
+	public void setConsoVitamine (int newConsoVita) {
 		m_consoVitamine=newConsoVita;
 	}
-	void setConsoGraisse (int newConsoGraisse) {
+	public void setConsoGraisse (int newConsoGraisse) {
 		m_consoGraisse=newConsoGraisse;
 	}
-	void setConsoSucre (int newConsoSucre) {
+	public void setConsoSucre (int newConsoSucre) {
 		m_consoSucre=newConsoSucre;
 	}
 }

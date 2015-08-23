@@ -6,7 +6,7 @@ public class encounter : MonoBehaviour {
 	[SerializeField] private float m_odeurRadius=0.5f;
 	[SerializeField] private float m_bruitRadius=0.5f;
 
-	private float m_scale = 0;
+	private float m_scale = 1;
 
 
 
