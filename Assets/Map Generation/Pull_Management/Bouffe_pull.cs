@@ -50,6 +50,7 @@ public class Bouffe_pull : MonoBehaviour {
 	void setBouffe(GameObject encounter)
 	{
 		setCitronnier(encounter);
+		encounter.SetActive (true);
 	}
 
 	void setCitronnier(GameObject encounter)

@@ -20,6 +20,14 @@ public class encounter : MonoBehaviour {
 	{
 		return m_Pv;
 	}
+	public float getOdeurRadius()
+	{
+		return m_odeurRadius;
+	}
+	public float getBruitRadius()
+	{
+		return m_bruitRadius;
+	}
 	public void setVisibilityOn()
 	{
 		Debug.Log ("Je suis vue");
