@@ -53,6 +53,7 @@
      <Compile Include="Assets\Map Generation\Pull_Management\Bouffe_pull.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Monste_Pull_Management.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Obstacle_pull.cs" />
+     <Compile Include="Assets\Monster\Monster.cs" />
      <Compile Include="Assets\Move_Player.cs" />
      <Compile Include="Assets\Player\Gather_Script.cs" />
      <Compile Include="Assets\Player\Move_player_keyboard.cs" />

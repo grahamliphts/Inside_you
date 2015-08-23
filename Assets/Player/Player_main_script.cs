@@ -17,6 +17,7 @@ public class Player_main_script : MonoBehaviour {
 	private int m_vitesseAttaque = 0;
 	private int m_resistance = 0;
 	private int m_pv = 0;
+	private int m_degat = 0;
 	private int m_resistTemperatures = 0;
 	private int m_courage = 0;
 	private int m_prodAdrenaline = 0;
@@ -104,6 +105,9 @@ public class Player_main_script : MonoBehaviour {
 	{
 		return m_peur;
 	}
+	public int getDegat () {
+		return m_degat;
+	}
 
 
 	public void setFer (int newFer) {
@@ -162,6 +166,9 @@ public class Player_main_script : MonoBehaviour {
 	}
 	public void setConsoSucre (int newConsoSucre) {
 		m_consoSucre=newConsoSucre;
+	}
+	public void setDegat (int newDegat) {
+		m_pv=newDegat;
 	}
 
 	void OnTriggerEnter(Collider other)

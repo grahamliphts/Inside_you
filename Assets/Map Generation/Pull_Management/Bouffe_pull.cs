@@ -71,7 +71,6 @@ public class Bouffe_pull : MonoBehaviour {
 		encounter.GetComponent<encounter> ().setFer (0);
 		encounter.GetComponent<encounter> ().setGraisse (0);
 		encounter.GetComponent<encounter> ().setSucre (0);
-
 	}
 	void setLentilles(GameObject encounter) //riche en fer
 		//Graines de soja, Lentilles, Haricots blancs, Pois chiches, Tofu, abricot
