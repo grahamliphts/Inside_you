@@ -18,4 +18,16 @@ public class encounter : MonoBehaviour {
 	{
 		return Pv;
 	}
+	public void setVisibilityOn()
+	{
+		Debug.Log ("Je suis vue");
+	}
+	public void setOdeurOn()
+	{
+		Debug.Log ("Je suis senti");
+	}
+	public void setBruitOn()
+	{
+		Debug.Log ("Je suis entendu");
+	}
 }

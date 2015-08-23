@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Ranger_script : MonoBehaviour {
 
-	public get_info parentInfo;
+	public encounter parentInfo;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,8 +13,13 @@ public class Ranger_script : MonoBehaviour {
 	void Update () {
 	
 	}
-	public void showPvParent()
+	public void showPvParent(string perception)
 	{
-		Debug.Log (parentInfo.getPV());
+		if(perception=="vue")
+			parentInfo.setVisibilityOn();
+		if(perception=="odeur")
+			parentInfo.setOdeurOn();
+		if(perception=="bruit")
+			parentInfo.setBruitOn();
 	}
 }
