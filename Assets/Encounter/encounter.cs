@@ -80,4 +80,34 @@ public class encounter : MonoBehaviour {
 	{
 		m_bruitRadius = newRadius;
 	}
+	public int getFer () {
+		return m_fer;
+	}
+	public int getMagnesium () {
+		return m_magnesium;
+	}
+	public int getVitamine () {
+		return m_vitamine;
+	}
+	public int getSucre () {
+		return m_sucre;
+	}
+	public int getGraisse () {
+		return m_graisse;
+	}
+	public void setFer (int newFer) {
+		m_fer=newFer;
+	}
+	public void setMagnesium (int newMagnesium) {
+		m_magnesium=newMagnesium;
+	}
+	public void setVitamine (int newVitamine) {
+		m_vitamine=newVitamine;
+	}
+	public void setSucre (int newSucre) {
+		m_sucre=newSucre;
+	}
+	public void setGraisse (int newGraisse) {
+		m_graisse=newGraisse;
+	}
 }
