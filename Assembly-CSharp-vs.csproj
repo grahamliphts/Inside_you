@@ -48,10 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Encounter\Ranger_script.cs" />
      <Compile Include="Assets\Encounter\encounter.cs" />
+     <Compile Include="Assets\InterfaceManager\InterfaceManagement.cs" />
+     <Compile Include="Assets\InterfaceManager\RessourceManager.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Bouffe_pull.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Monste_Pull_Management.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Obstacle_pull.cs" />
      <Compile Include="Assets\Move_Player.cs" />
+     <Compile Include="Assets\Player\Gather_Script.cs" />
      <Compile Include="Assets\Player\Move_player_keyboard.cs" />
      <Compile Include="Assets\Player\Player_main_script.cs" />
      <Compile Include="Assets\collider_llert.cs" />
