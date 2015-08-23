@@ -61,7 +61,8 @@ public class Bouffe_pull : MonoBehaviour {
 
 	void setCitronnier(GameObject encounter)
 	{
-		encounter.GetComponent<encounter> ().setName ("Citronnier");
+		encounter.GetComponent<encounter> ().setName ("bouffe");
+		encounter.GetComponent<encounter> ().set_name ("Citronnier");
 		encounter.GetComponent<encounter> ().setOdeurRange (6.789f);
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);
@@ -75,7 +76,8 @@ public class Bouffe_pull : MonoBehaviour {
 	void setLentilles(GameObject encounter) //riche en fer
 		//Graines de soja, Lentilles, Haricots blancs, Pois chiches, Tofu, abricot
 	{
-		encounter.GetComponent<encounter> ().setName ("Lentilles");
+		encounter.GetComponent<encounter> ().setName ("bouffe");
+		encounter.GetComponent<encounter> ().set_name ("Lentilles");
 		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);
@@ -89,7 +91,8 @@ public class Bouffe_pull : MonoBehaviour {
 	void setTournesol(GameObject encounter) //riche en magnésium
 		//Tournesol, blé
 	{
-		encounter.GetComponent<encounter> ().setName ("Tournesol");
+		encounter.GetComponent<encounter> ().setName ("bouffe");
+		encounter.GetComponent<encounter> ().set_name ("Tournesol");
 		encounter.GetComponent<encounter> ().setOdeurRange (10f);
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);
@@ -103,7 +106,8 @@ public class Bouffe_pull : MonoBehaviour {
 	void setAgave(GameObject encounter) //Riche en sucre
 		//Fraise, framboise
 	{
-		encounter.GetComponent<encounter> ().setName ("Agave");
+		encounter.GetComponent<encounter> ().setName ("bouffe");
+		encounter.GetComponent<encounter> ().set_name ("Agave");
 		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);
@@ -117,7 +121,8 @@ public class Bouffe_pull : MonoBehaviour {
 	void setNoisettes(GameObject encounter) //Riche en graisse
 		//Noisettes, noix, olives
 	{
-		encounter.GetComponent<encounter> ().setName ("Noisettes");
+		encounter.GetComponent<encounter> ().setName ("bouffe");
+		encounter.GetComponent<encounter> ().set_name ("Noisettes");
 		encounter.GetComponent<encounter> ().setOdeurRange (3.5f);
 		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
 		encounter.GetComponent<encounter> ().setPv (10);

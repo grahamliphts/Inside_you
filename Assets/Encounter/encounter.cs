@@ -13,6 +13,8 @@ public class encounter : MonoBehaviour {
 	private int m_graisse = 0;
 	private int m_sucre = 0;
 
+	private string m_name ="default";
+
 
 	// Use this for initialization
 	void Start () {
@@ -37,6 +39,15 @@ public class encounter : MonoBehaviour {
 		}
 	}
 
+	public void set_name(string NewName)
+	{
+		m_name = NewName;
+	}
+	public string get_name()
+	{
+		return m_name;
+	}
+
 	public int getPV()
 	{
 		return m_Pv;
@@ -51,16 +62,16 @@ public class encounter : MonoBehaviour {
 	}
 	public void setVisibilityOn()
 	{
-		Debug.Log ("Je suis vue");
+		//Debug.Log ("Je suis vue");
 
 	}
 	public void setOdeurOn()
 	{
-		Debug.Log ("Je suis senti");
+		//Debug.Log ("Je suis senti");
 	}
 	public void setBruitOn()
 	{
-		Debug.Log ("Je suis entendu");
+		//Debug.Log ("Je suis entendu");
 		if(m_scale < 1f) 
 			StartCoroutine ("ShowMe");
 	}
