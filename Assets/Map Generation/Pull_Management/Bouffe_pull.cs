@@ -17,9 +17,9 @@ public class Bouffe_pull : MonoBehaviour {
 		
 		while (IsBouffeInPull()) {
 			m_pullContentSize --;
-			PullArray[i].transform.position = new Vector3(Random.Range(x1,x2),0,Random.Range(y1,y2));
+			PullArray[i].transform.position = new Vector3(Random.Range(x1,x2)-2,0f,Random.Range(y1,y2));
 			setBouffe(PullArray[i]);
-			Debug.Log(PullArray[i].name);
+			//Debug.Log(PullArray[i].name);
 			i ++;
 			
 			//Random.Range(10F,20F);

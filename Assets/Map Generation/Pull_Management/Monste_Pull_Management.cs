@@ -19,7 +19,7 @@ public class Monste_Pull_Management : MonoBehaviour {
 		while (IsMonsterInPull()) {
 			m_pullContentSize --;
 			PullArray[i].transform.position = new Vector3(Random.Range(x1,x2),0,Random.Range(y1,y2));
-			Debug.Log(PullArray[i].name);
+			//Debug.Log(PullArray[i].name);
 			i ++;
 
 			//Random.Range(10F,20F);
