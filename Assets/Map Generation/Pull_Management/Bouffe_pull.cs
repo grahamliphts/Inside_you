@@ -18,6 +18,7 @@ public class Bouffe_pull : MonoBehaviour {
 		while (IsBouffeInPull()) {
 			m_pullContentSize --;
 			PullArray[i].transform.position = new Vector3(Random.Range(x1,x2),0,Random.Range(y1,y2));
+			setBouffe(PullArray[i]);
 			Debug.Log(PullArray[i].name);
 			i ++;
 			
@@ -40,8 +41,22 @@ public class Bouffe_pull : MonoBehaviour {
 		else
 			return false;
 	}
+
 	int setArraySize()
 	{
 		return PullArray.Length;
+	}
+
+	void setBouffe(GameObject encounter)
+	{
+		setCitronnier(encounter);
+	}
+
+	void setCitronnier(GameObject encounter)
+	{
+		encounter.GetComponent<encounter> ().setName ("Citronnier");
+		encounter.GetComponent<encounter> ().setOdeurRange (6.789f);
+		encounter.GetComponent<encounter> ().setBruitRange (0.5f);
+		encounter.GetComponent<encounter> ().setPv (10);
 	}
 }

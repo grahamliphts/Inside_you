@@ -46,14 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Encounter\Ranger_script.cs" />
+     <Compile Include="Assets\Encounter\encounter.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Bouffe_pull.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Monste_Pull_Management.cs" />
      <Compile Include="Assets\Map Generation\Pull_Management\Obstacle_pull.cs" />
      <Compile Include="Assets\Move_Player.cs" />
-     <Compile Include="Assets\Ranger_script.cs" />
      <Compile Include="Assets\collider_llert.cs" />
-     <Compile Include="Assets\encounter.cs" />
-     <Compile Include="Assets\get_info.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
